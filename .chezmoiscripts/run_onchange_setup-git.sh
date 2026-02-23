@@ -3,6 +3,7 @@
 set -e
 
 rpm -q git || sudo dnf install -y git
+rpm -q gh || sudo dnf install -y gh
 rpm -q git-filter-repo || sudo dnf install -y git-filter-repo
 
 git config --global user.name "brunodsf05"
