@@ -51,6 +51,7 @@ dnf_packages=(
     "jetbrainsmono-nerd-fonts"
     "departuremono-nerd-fonts"
     # --- Terminal --- #
+    "bat"
     "eza"
     "fastfetch"
     "fish"
