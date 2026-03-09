@@ -8,17 +8,17 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "terminal": {
-    "font_family": "Cousine Nerd Font Mono"
+    "font_family": "Cousine Nerd Font Mono",
   },
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 100.0,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "cursor_shape": "bar",
   "tabs": {
-    "close_position": "right"
+    "close_position": "right",
   },
   "tab_bar": {
-    "show": true
+    "show": true,
   },
   "ui_font_size": 16,
   "buffer_font_size": 15.0,
