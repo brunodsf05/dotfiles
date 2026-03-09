@@ -2,10 +2,7 @@
 
 set -e
 
-echo "Installing git and utilities..."
-rpm -q git || sudo dnf install -y git
-rpm -q gh || sudo dnf install -y gh
-rpm -q git-filter-repo || sudo dnf install -y git-filter-repo
+rpm -q git || { echo "Git configuration skipped because it is not installed."; exit 0; }
 
 echo "Configuring git..."
 git config --global user.name "brunodsf05"

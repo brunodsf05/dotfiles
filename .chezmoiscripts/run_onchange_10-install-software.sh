@@ -43,6 +43,9 @@ dnf_packages=(
     "gimp"
     "inkscape"
     # --- Development --- #
+    "gh"
+    "git"
+    "git-filter-repo"
     "nodejs"
     "pnpm"
     "zed"
