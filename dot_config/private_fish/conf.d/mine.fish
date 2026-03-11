@@ -32,8 +32,9 @@ if status is-interactive
     # PackageManagement
     abbr kki "sudo dnf install"
     abbr kkig "sudo dnf group install"
-    abbr kku "sudo dnf upgrade"
+    abbr kkr "sudo dnf remove"
     abbr kks "dnf search"
+    abbr kku "sudo dnf upgrade"
     # Eza
     set -l eza "eza --icons auto"
     abbr ls "$eza"
