@@ -59,7 +59,6 @@ dnf_packages=(
     "fastfetch"
     "fish"
     "fzf"
-    "kitty"
     "micro"
     "starship"
     "yazi"
