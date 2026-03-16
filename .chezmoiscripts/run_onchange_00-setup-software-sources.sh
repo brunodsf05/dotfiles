@@ -13,6 +13,10 @@ grep -q "^fastestmirror=" "$CONF" || echo "fastestmirror=True" | sudo tee -a "$C
 echo "Adding Terra repositories..."
 rpm -q terra-release || sudo dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
+echo "Adding RPM Fusion..."
+rpm -q rpmfusion-free-release || sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+rpm -q rpmfusion-nonfree-release || sudo dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
 # --- Flatpak --- #
 
 echo "Installing flatpak..."
