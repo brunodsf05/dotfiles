@@ -1,7 +1,7 @@
 set -g fish_greeting
 
 function abbr2
-    abbr $argv[1] "$argv[2] #$argv[1]"
+    abbr --set-cursor $argv[1] "$argv[2] % #$argv[1]"
 end
 
 if status is-interactive
