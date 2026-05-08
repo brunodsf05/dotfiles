@@ -46,8 +46,6 @@ dnf_packages=(
     "gh"
     "git"
     "git-filter-repo"
-    "nodejs"
-    "pnpm"
     "zed"
     # --- Fonts --- #
     "cousine-nerd-fonts"
