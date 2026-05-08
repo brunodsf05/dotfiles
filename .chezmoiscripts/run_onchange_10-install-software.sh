@@ -78,6 +78,7 @@ flatpak_packages=(
     "org.chromium.Chromium"
     "org.keepassxc.KeePassXC"
     "org.mozilla.Thunderbird"
+    "org.mozilla.firefox"
     "org.qbittorrent.qBittorrent"
 )
 
