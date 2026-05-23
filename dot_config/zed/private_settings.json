@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  // Other
+  "cli_default_open_behavior": "existing_window",
+  "use_podman": true,
+  // Style
   "terminal": {
     "font_family": "Cousine Nerd Font Mono",
   },
