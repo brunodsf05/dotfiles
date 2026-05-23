@@ -20,6 +20,7 @@ to_install=(
     "fastfetch"
     "fish"
     "fzf"
+    "kitty"
     "micro"
     "starship"
     "yazi"
