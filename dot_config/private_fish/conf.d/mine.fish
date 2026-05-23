@@ -9,6 +9,7 @@ if status is-interactive
     starship init fish | source
     zoxide init fish | source
     fzf --fish | source
+    mise activate fish | source
 
     function y
         set tmp (mktemp -t "yazi-cwd.XXXXXX")
