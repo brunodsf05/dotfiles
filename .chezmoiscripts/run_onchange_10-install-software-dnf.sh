@@ -23,6 +23,7 @@ to_install=(
     "kitty"
     "micro"
     "starship"
+    "xdg-terminal-exec"
     "yazi"
     "zellij"
     "zoxide"
