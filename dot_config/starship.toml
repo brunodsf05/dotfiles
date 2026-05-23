@@ -1,0 +1,6 @@
+[character]
+success_symbol = '[](bold green)' # nf-fa-caret_right
+error_symbol = '[](bold red)' # nf-fa-xmark
+
+[mise]
+disabled = false
