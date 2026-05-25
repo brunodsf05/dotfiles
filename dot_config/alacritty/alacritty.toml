@@ -1,60 +1,50 @@
-#### FONTS ####
-
-font.size = 12.0
-
 #### GENERAL ####
 
-[window]
-padding = { x = 10, y = 10 }
-dynamic_padding = true
+window.padding.x = 4
+window.padding.y = 4
+window.dynamic_padding = true
 
-[cursor]
-thickness = 0.1
+cursor.thickness = 0.1
+cursor.style.shape = "Beam"
+cursor.style.blinking = "On"
 
-[cursor.style]
-shape = "Beam"
-blinking = "On"
+font.normal.family = "Cousine Nerd Font"
+font.size = 12.0
 
 #### COLORS ####
 
-[colors.primary]
-background = "#000000"
-foreground = "#b2b2b2"
+colors.primary.background = "#000000"
+colors.primary.foreground = "#b2b2b2"
 
-[colors.cursor]
-text = "#000000"
-cursor = "#b2b2b2"
+colors.cursor.text = "#000000"
+colors.cursor.cursor = "#b2b2b2"
 
-[colors.selection]
-text = "#ffffff"
-background = "#444444"
+colors.selection.text = "#ffffff"
+colors.selection.background = "#444444"
 
-[colors.normal]
-black   = "#000000"
-red     = "#e03030"
-green   = "#20d030"
-yellow  = "#e0a000"
-blue    = "#0037e0"
-magenta = "#b020b0"
-cyan    = "#30b0b0"
-white   = "#b2b2b2"
+colors.normal.black   = "#000000"
+colors.normal.red     = "#e03030"
+colors.normal.green   = "#20d030"
+colors.normal.yellow  = "#e0a000"
+colors.normal.blue    = "#0037e0"
+colors.normal.magenta = "#b020b0"
+colors.normal.cyan    = "#30b0b0"
+colors.normal.white   = "#b2b2b2"
 
-[colors.bright]
-black   = "#686868"
-red     = "#ff5757"
-green   = "#54ff54"
-yellow  = "#ffd92e"
-blue    = "#0070f0"
-magenta = "#ff54ff"
-cyan    = "#54ffff"
-white   = "#ffffff"
+colors.bright.black   = "#686868"
+colors.bright.red     = "#ff5757"
+colors.bright.green   = "#54ff54"
+colors.bright.yellow  = "#ffd92e"
+colors.bright.blue    = "#0070f0"
+colors.bright.magenta = "#ff54ff"
+colors.bright.cyan    = "#54ffff"
+colors.bright.white   = "#ffffff"
 
-[colors.dim]
-black   = "#181818"
-red     = "#650000"
-green   = "#006500"
-yellow  = "#655e00"
-blue    = "#000065"
-magenta = "#650065"
-cyan    = "#006565"
-white   = "#656565"
+colors.dim.black   = "#181818"
+colors.dim.red     = "#650000"
+colors.dim.green   = "#006500"
+colors.dim.yellow  = "#655e00"
+colors.dim.blue    = "#000065"
+colors.dim.magenta = "#650065"
+colors.dim.cyan    = "#006565"
+colors.dim.white   = "#656565"
