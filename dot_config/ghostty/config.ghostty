@@ -1,0 +1,29 @@
+window-decoration = client
+window-theme = ghostty
+
+background = #111111
+foreground = #b2b2b2
+
+cursor-color = #b2b2b2
+cursor-text = #111111
+
+selection-background = #444444
+selection-foreground = #ffffff
+
+palette = 0=#111111
+palette = 1=#e03030
+palette = 2=#20d030
+palette = 3=#e0a000
+palette = 4=#0037e0
+palette = 5=#b020b0
+palette = 6=#30b0b0
+palette = 7=#b2b2b2
+
+palette = 8=#686868
+palette = 9=#ff5757
+palette = 10=#54ff54
+palette = 11=#ffd92e
+palette = 12=#0070f0
+palette = 13=#ff54ff
+palette = 14=#54ffff
+palette = 15=#ffffff
