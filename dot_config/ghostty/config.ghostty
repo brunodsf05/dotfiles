@@ -1,3 +1,5 @@
+command = SHELL=/usr/bin/fish /usr/bin/fish --login --interactive
+
 window-decoration = client
 window-theme = ghostty
 
