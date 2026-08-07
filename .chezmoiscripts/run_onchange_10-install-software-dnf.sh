@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo dnf remove -y firefox;
+
 to_install=(
     # --- Art --- #
     "gimp"
