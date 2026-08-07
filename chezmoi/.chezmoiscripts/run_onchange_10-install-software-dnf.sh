@@ -11,7 +11,6 @@ to_install=(
     "git"
     "git-filter-repo"
     "mise"
-    "zed"
     # --- Fonts --- #
     "cousine-nerd-fonts"
     "jetbrainsmono-nerd-fonts"
