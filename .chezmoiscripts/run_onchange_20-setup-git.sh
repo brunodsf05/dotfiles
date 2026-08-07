@@ -2,7 +2,7 @@
 
 set -e
 
-rpm -q git || { echo "Git configuration skipped because it is not installed."; exit 0; }
+command -v git || { echo "Git configuration skipped because it is not installed."; exit 0; }
 
 echo "Configuring git..."
 git config --global user.name "brunodsf05"
