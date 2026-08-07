@@ -7,9 +7,11 @@
   home.stateVersion = "26.05";
 
   programs.home-manager.enable = true;
-
   programs.nh.enable = true;
-  programs.nh.homeFlake = "/home/bruno/.local/share/chezmoi";
+
+  home.sessionVariables = {
+   NH_HOME_FLAKE = "/home/bruno/.local/share/chezmoi";
+ };
 
   targets.genericLinux.enable = true;
 
