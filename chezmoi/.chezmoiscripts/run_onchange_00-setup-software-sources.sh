@@ -9,11 +9,13 @@ sudo dnf5 config-manager setopt max_parallel_downloads=10 fastestmirror=True
 # echo "Adding Terra repositories..."
 # rpm -q terra-release || sudo dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
-echo "Installing RPM Fusion and Flatpak..."
+echo "Installing RPM Fusion, Flatpak and Nix..."
 sudo dnf install -y \
     "https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm" \
     "https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm" \
-    flatpak
+    flatpak \
+    nix \
+    nix-daemon
 
 # --- Flatpak --- #
 
