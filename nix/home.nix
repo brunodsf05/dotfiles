@@ -9,13 +9,13 @@
   programs.home-manager.enable = true;
   programs.nh.enable = true;
 
-  home.sessionVariables = {
-   NH_HOME_FLAKE = "/home/bruno/.local/share/chezmoi";
- };
-
   targets.genericLinux.enable = true;
 
   # --- Configuration --- #
+  home.sessionVariables = {
+    NH_HOME_FLAKE = "/home/bruno/.local/share/chezmoi";
+  };
+
   home.packages = with pkgs; [
     zed-editor
   ];
