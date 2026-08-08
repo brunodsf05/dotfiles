@@ -6,14 +6,15 @@ to_install=(
     # --- Entertainment --- #
     "com.heroicgameslauncher.hgl"
     "com.stremio.Stremio"
-    "io.github.Faugus.faugus-launcher"
     "org.prismlauncher.PrismLauncher"
     # --- Tools --- #
+    "ai.lmstudio.lm-studio"
     "io.gitlab.theevilskeleton.Upscaler"
     "org.chromium.Chromium"
     "org.keepassxc.KeePassXC"
     "org.mozilla.firefox"
     "org.mozilla.thunderbird_esr"
+    "org.onlyoffice.desktopeditors"
     "org.qbittorrent.qBittorrent"
 )
 
