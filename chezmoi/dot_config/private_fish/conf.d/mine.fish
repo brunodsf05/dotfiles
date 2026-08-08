@@ -35,6 +35,9 @@ if status is-interactive
     abbr gitca "git commit --amend"
     abbr gitl "git log --all --graph --oneline"
     abbr gits "git status"
+    abbr gitp "git push"
+    abbr gitpo "git push origin"
+    abbr gitpom "git push origin main"
     # PackageManagement
     abbr kki "sudo dnf install"
     abbr kkig "sudo dnf group install"
