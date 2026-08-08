@@ -1,11 +1,16 @@
 set -g fish_greeting
 
+function ifexists
+    type -q $argv[1]; or return 0
+    command $argv
+end
+
 if status is-interactive
     # --- Integrations --- #
-    starship init fish | source
-    zoxide init fish | source
-    fzf --fish | source
-    mise activate fish | source
+    ifexists starship init fish | source
+    ifexists zoxide init fish | source
+    ifexists fzf --fish | source
+    ifexists mise activate fish | source
 
     function y
         set tmp (mktemp -t "yazi-cwd.XXXXXX")
