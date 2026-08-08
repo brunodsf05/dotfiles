@@ -21,7 +21,6 @@ to_install=(
     "fastfetch"
     "fish"
     "fzf"
-    "ghostty"
     "micro"
     "starship"
     "xdg-terminal-exec"
