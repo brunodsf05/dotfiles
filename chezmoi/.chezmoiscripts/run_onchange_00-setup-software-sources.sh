@@ -15,7 +15,8 @@ sudo dnf install -y \
     "https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm" \
     flatpak \
     nix \
-    nix-daemon
+    nix-daemon \
+    xdg-terminal-exec
 
 # --- Flatpak --- #
 
