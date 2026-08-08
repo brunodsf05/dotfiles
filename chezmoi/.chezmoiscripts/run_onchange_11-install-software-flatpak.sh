@@ -12,8 +12,8 @@ to_install=(
     "io.gitlab.theevilskeleton.Upscaler"
     "org.chromium.Chromium"
     "org.keepassxc.KeePassXC"
-    "org.mozilla.thunderbird_esr"
     "org.mozilla.firefox"
+    "org.mozilla.thunderbird_esr"
     "org.qbittorrent.qBittorrent"
 )
 
