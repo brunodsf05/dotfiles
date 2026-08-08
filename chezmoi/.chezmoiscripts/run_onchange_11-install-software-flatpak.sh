@@ -17,20 +17,6 @@ to_install=(
     "org.qbittorrent.qBittorrent"
 )
 
-# Generate temporal script that runs in a new terminal
-tmp_script="$(mktemp)"
-cat > "$tmp_script" <<EOF
-#!/usr/bin/env bash
-
+bash $CHEZMOI_SOURCE_DIR/.chezmoiscripts/.run-in-terminal.sh <<EOF
 flatpak install -y flathub ${to_install[*]}
-
-pw-play /usr/share/sounds/freedesktop/stereo/complete.oga
-printf '\\nPress Enter to close...'
-read -r
-
-rm -f "\$0"
 EOF
-
-chmod +x "$tmp_script"
-
-xdg-terminal-exec -- bash "$tmp_script" &
