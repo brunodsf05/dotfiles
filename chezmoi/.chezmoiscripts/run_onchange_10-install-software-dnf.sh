@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 to_install=(
     # --- Art --- #
     "gimp"
