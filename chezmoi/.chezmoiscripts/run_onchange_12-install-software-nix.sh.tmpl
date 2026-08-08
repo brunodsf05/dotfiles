@@ -2,9 +2,6 @@
 
 set -e
 
-echo "Enabling nix-daemon..."
-sudo systemctl enable nix-daemon --now
-
 echo "Install home-manager and switch to my config..."
 command -v nix && nix run home-manager/master -- switch --flake {{ .chezmoi.workingTree }}
 

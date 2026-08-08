@@ -18,8 +18,11 @@ sudo dnf install -y \
     nix-daemon \
     xdg-terminal-exec
 
-# --- Flatpak --- #
+# --- Nix --- #
+echo "Enabling nix-daemon..."
+sudo systemctl enable nix-daemon --now
 
+# --- Flatpak --- #
 echo "Disabling fedora's flatpak repo..."
 flatpak remotes | grep "fedora" && sudo flatpak remote-modify --disable fedora
 
