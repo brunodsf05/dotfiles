@@ -1,9 +1,5 @@
 set -g fish_greeting
 
-function abbr2
-    abbr --set-cursor $argv[1] "$argv[2] % #$argv[1]"
-end
-
 if status is-interactive
     # --- Integrations --- #
     starship init fish | source
@@ -43,18 +39,18 @@ if status is-interactive
     # Eza
     function lsi; command eza --group-directories-first $argv; end
     function ls; lsi --icons=auto $argv; end
-    abbr2 lsa "ls -a"
-    abbr2 ll "ls -l"
-    abbr2 lla "ls -la"
-    abbr2 lt "ls --tree"
-    abbr2 lta "ls -a --tree"
-    abbr2 l1 "ls -1"
-    abbr2 l1a "ls -1 -a"
-    abbr2 lsai "lsi -a"
-    abbr2 lli "lsi -l"
-    abbr2 llai "lsi -la"
-    abbr2 lti "lsi --tree"
-    abbr2 ltai "lsi -a --tree"
-    abbr2 l1i "lsi -1"
-    abbr2 l1ai "lsi -1 -a"
+    abbr lsa "ls -a"
+    abbr ll "ls -l"
+    abbr lla "ls -la"
+    abbr lt "ls --tree"
+    abbr lta "ls -a --tree"
+    abbr l1 "ls -1"
+    abbr l1a "ls -1 -a"
+    abbr lsai "lsi -a"
+    abbr lli "lsi -l"
+    abbr llai "lsi -la"
+    abbr lti "lsi --tree"
+    abbr ltai "lsi -a --tree"
+    abbr l1i "lsi -1"
+    abbr l1ai "lsi -1 -a"
 end
