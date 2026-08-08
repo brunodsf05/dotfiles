@@ -10,11 +10,6 @@ to_install=(
     "gh"
     "git"
     "git-filter-repo"
-    "mise"
-    # --- Fonts --- #
-    "cousine-nerd-fonts"
-    "jetbrainsmono-nerd-fonts"
-    "departuremono-nerd-fonts"
     # --- Terminal --- #
     "bat"
     "eza"
@@ -22,10 +17,7 @@ to_install=(
     "fish"
     "fzf"
     "micro"
-    "starship"
     "xdg-terminal-exec"
-    "yazi"
-    "zellij"
     "zoxide"
 )
 

@@ -17,7 +17,16 @@
   };
 
   home.packages = with pkgs; [
+    # Software
+    mise
+    starship
+    yazi
     zed-editor
+    zellij
+    # Fonts
+    nerd-fonts.cousine
+    nerd-fonts.departure-mono
+    nerd-fonts.jetbrains-mono
   ];
 
   services.syncthing.enable = true;
