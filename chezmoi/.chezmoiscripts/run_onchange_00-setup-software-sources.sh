@@ -6,8 +6,8 @@ set -e
 echo "Making DNF faster... (/etc/dnf/dnf.conf)"
 sudo dnf5 config-manager setopt max_parallel_downloads=10 fastestmirror=True
 
-# echo "Adding Terra repositories..."
-# rpm -q terra-release || sudo dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+echo "Adding Terra repositories..."
+rpm -q terra-release || sudo dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 
 echo "Installing RPM Fusion, Flatpak and Nix..."
 sudo dnf install -y \

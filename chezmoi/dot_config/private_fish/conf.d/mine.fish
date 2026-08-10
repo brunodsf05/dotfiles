@@ -61,6 +61,4 @@ if status is-interactive
     alias ltai "lsi -a --tree"
     alias l1i "lsi -1"
     alias l1ai "lsi -1 -a"
-    # Other
-    if type -q zeditor; and not type -q zed; alias zed zeditor; end
 end

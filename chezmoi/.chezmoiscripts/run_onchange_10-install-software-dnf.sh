@@ -8,8 +8,13 @@ to_install=(
     "gh"
     "git"
     "git-filter-repo"
+    "zed"
     # --- Entertainment --- #
     "steam"
+    # --- Fonts --- #
+    "cousine-nerd-fonts"
+    "departuremono-nerd-fonts"
+    "jetbrainsmono-nerd-fonts"
     # --- Terminal --- #
     "alacritty"
     "bat"
@@ -18,7 +23,10 @@ to_install=(
     "fish"
     "fzf"
     "micro"
+    "starship"
     "xdg-terminal-exec"
+    "yazi"
+    "zellij"
     "zoxide"
 )
 
