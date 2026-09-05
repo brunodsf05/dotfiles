@@ -15,6 +15,7 @@ to_install=(
     "cousine-nerd-fonts"
     "departuremono-nerd-fonts"
     "jetbrainsmono-nerd-fonts"
+    "monaspace-nerd-fonts"
     # --- Terminal --- #
     "alacritty"
     "bat"

@@ -8,6 +8,12 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // Other
+  "languages": {
+    "Python": {
+      "enable_language_server": true
+    }
+  },
+  "format_on_save": "off",
   "cli_default_open_behavior": "existing_window",
   "use_podman": true,
 
@@ -20,25 +26,51 @@
 
   // Style
   "terminal": {
+    "shell": {
+      "with_arguments": {
+        "program": "fish",
+        "args": [ "--login" ]
+      }
+    },
     "show_count_badge": false,
-    "font_family": "Cousine Nerd Font Mono"
+    "font_family": "MonaspiceAr Nerd Font",
+    "font_features": {
+      "calt": true,
+      "liga": true,
+      "ss01": true,
+      "ss02": true,
+      "ss03": true,
+      "ss04": true,
+      "ss05": true,
+      "ss06": true,
+      "ss09": true,
+      "ss10": true,
+    },
   },
 
   // Editor style
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 100.0,
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_family": "MonaspiceAr Nerd Font Mono",
+  "buffer_font_features": {
+    "ss04": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss05": true,
+    "ss06": true,
+  },
   "cursor_shape": "bar",
   "tabs": {
     "file_icons": true,
     "git_status": true
   },
   "ui_font_size": 16,
-  "buffer_font_size": 15.0,
+  "buffer_font_size": 16.0,
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "One Dark"
+    "dark": "VSCode Dark Polished"
   },
 
   // Editor panels
