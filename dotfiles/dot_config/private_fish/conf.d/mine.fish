@@ -27,8 +27,9 @@ if status is-interactive
     abbr zz fzf-cd-widget
     # Display
     abbr c clear
-    abbr ff fastfetch
-    abbr ffc "clear && fastfetch"
+    abbr ff fzf
+    abbr pp fastfetch
+    abbr ppc "clear && fastfetch"
     # Git
     abbr gita "git add ."
     abbr --set-cursor gitc "git commit -m '%'"
@@ -44,6 +45,7 @@ if status is-interactive
     abbr kkr "sudo dnf remove"
     abbr kks "dnf search"
     abbr kku "sudo dnf upgrade"
+    abbr kkur "sudo dnf upgrade --refresh"
     # Eza
     function lsi; command eza --group-directories-first $argv; end
     function ls; lsi --icons=auto $argv; end
