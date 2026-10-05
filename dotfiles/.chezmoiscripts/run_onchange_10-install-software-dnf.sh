@@ -12,8 +12,7 @@ to_install=(
     # --- Entertainment --- #
     "steam"
     # --- Fonts --- #
-    "cousine-nerd-fonts"
-    "departuremono-nerd-fonts"
+    "cascadia-fonts-all"
     "jetbrainsmono-nerd-fonts"
     "monaspace-nerd-fonts"
     # --- Terminal --- #
