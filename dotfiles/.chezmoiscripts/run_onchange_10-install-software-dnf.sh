@@ -16,12 +16,12 @@ to_install=(
     "jetbrainsmono-nerd-fonts"
     "monaspace-nerd-fonts"
     # --- Terminal --- #
-    "alacritty"
     "bat"
     "eza"
     "fastfetch"
     "fish"
     "fzf"
+    "ghostty"
     "micro"
     "starship"
     "xdg-terminal-exec"
