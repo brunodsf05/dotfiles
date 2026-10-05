@@ -19,9 +19,11 @@
 
   // AI
   "agent": {
+    "threads_sidebar": {
+      "position": "right"
+    },
     "dock": "right",
-    "flexible": true,
-    "sidebar_side": "right"
+    "flexible": true
   },
 
   // Style
@@ -33,7 +35,7 @@
       }
     },
     "show_count_badge": false,
-    "font_family": "MonaspiceAr Nerd Font",
+    "font_family": "MonaspiceAr Nerd Font Mono",
     "font_features": {
       "calt": true,
       "liga": true,
@@ -50,9 +52,11 @@
 
   // Editor style
   "buffer_line_height": "comfortable",
-  "buffer_font_weight": 100.0,
-  "buffer_font_family": "MonaspiceAr Nerd Font Mono",
+  "buffer_font_weight": 300.0,
+  "buffer_font_family": "Cascadia Code PL",
   "buffer_font_features": {
+    "calt": true,
+    "liga": true,
     "ss04": true,
     "ss01": true,
     "ss02": true,
@@ -60,7 +64,6 @@
     "ss05": true,
     "ss06": true,
   },
-  "cursor_shape": "bar",
   "tabs": {
     "file_icons": true,
     "git_status": true
@@ -70,7 +73,13 @@
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "VSCode Dark Polished"
+    "dark": "One Dark"
+  },
+  "cursor_animation": {
+    "enabled": true
+  },
+  "minimap": {
+    "show": "always"
   },
 
   // Editor panels
