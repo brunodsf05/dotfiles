@@ -29,8 +29,6 @@ if status is-interactive
     abbr c clear
     abbr ff fzf
     abbr --position anywhere pff "| fzf"
-    abbr pp fastfetch
-    abbr ppc "clear && fastfetch"
     # Git
     abbr gita "git add ."
     abbr --set-cursor gitc "git commit -m '%'"
