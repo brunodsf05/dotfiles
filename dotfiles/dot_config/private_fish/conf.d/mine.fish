@@ -25,6 +25,9 @@ if status is-interactive
     # Navigation
     abbr cd z
     abbr zz fzf-cd-widget
+    # Clipboard
+    abbr cbc "wl-copy <"
+    abbr --position anywhere pcbc "| wl-copy"
     # Display
     abbr c clear
     abbr ff fzf
