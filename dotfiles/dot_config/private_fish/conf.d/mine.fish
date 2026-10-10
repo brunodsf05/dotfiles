@@ -28,6 +28,7 @@ if status is-interactive
     # Display
     abbr c clear
     abbr ff fzf
+    abbr --position anywhere pff "| fzf"
     abbr pp fastfetch
     abbr ppc "clear && fastfetch"
     # Git
