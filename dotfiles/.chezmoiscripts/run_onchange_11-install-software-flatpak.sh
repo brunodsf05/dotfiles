@@ -6,14 +6,17 @@ to_install=(
     # --- Entertainment --- #
     "com.heroicgameslauncher.hgl"
     "com.stremio.Stremio"
+    "info.cemu.Cemu"
+    "io.github.Faugus.faugus-launcher"
+    "org.DolphinEmu.dolphin-emu"
     "org.prismlauncher.PrismLauncher"
     # --- Tools --- #
     "ai.lmstudio.lm-studio"
+    "flathub org.localsend.localsend_app"
     "io.gitlab.theevilskeleton.Upscaler"
     "org.chromium.Chromium"
     "org.keepassxc.KeePassXC"
     "org.mozilla.firefox"
-    "org.mozilla.thunderbird_esr"
     "org.onlyoffice.desktopeditors"
     "org.qbittorrent.qBittorrent"
 )
